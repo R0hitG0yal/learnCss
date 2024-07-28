@@ -1,0 +1,53 @@
+h1,
+h4 {
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4{
+    font-weight: 100;
+}
+
+h1{
+    padding: 20px;
+}
+
+body {
+  background-color: rgb(26, 26, 56);
+  color: white;
+  font-family: monospace;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+form {
+  padding: 30px 0px;
+}
+
+input[type="text"],
+[type="password"] {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 100%;
+  height: 23px;
+  margin: 8px 0px;
+}
+
+hr {
+  margin-top: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.accType{
+    padding-top: 30px;
+}
+
+.accType>input , .accType>label{
+    margin-top: 15px;
+}
